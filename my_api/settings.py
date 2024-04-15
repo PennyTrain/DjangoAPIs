@@ -64,7 +64,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
     'djangoapi.herokuapp.com',
-    'https://djangoapi-81126c05d8b6.herokuapp.com/',
+    'djangoapi-81126c05d8b6.herokuapp.com',
 ]
 
 
@@ -109,7 +109,6 @@ MIDDLEWARE = [
 
 if 'CLIENT_ORIGIN_DEV' in os.environ:
     extracted_url = re.match(r'^([^.]+)', os.environ.get('CLIENT_ORIGIN_DEV', ''), re.IGNORECASE).group(0)
-
 
 CORS_ALLOW_CREDENTIALS = True
 
