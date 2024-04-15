@@ -62,7 +62,8 @@ DEBUG = 'DEV' in os.environ
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
-    'djangoapi.herokuapp.com'
+    'djangoapi.herokuapp.com',
+    'https://djangoapi-81126c05d8b6.herokuapp.com/',
 ]
 
 
