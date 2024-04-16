@@ -112,6 +112,12 @@ if 'CLIENT_ORIGIN_DEV' in os.environ:
 
 CORS_ALLOW_CREDENTIALS = True
 
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
+    # Add other origins as needed
+]
+
+
 ROOT_URLCONF = 'my_api.urls'
 
 TEMPLATES = [
